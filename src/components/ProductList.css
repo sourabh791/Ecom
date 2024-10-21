@@ -1,0 +1,82 @@
+/* ProductList.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Space between cards */
+  justify-content: center; /* Center cards horizontally */
+  padding: 2rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Adjust width as needed */
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden; /* Ensures content doesn't overflow */
+  display: flex;
+  flex-direction: column; /* Ensure children stack vertically */
+  justify-content: space-between; /* Spread out elements vertically */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0.5rem 0;
+  flex-grow: 1; /* Allow name to take up space and push down the button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card p {
+  color: #666;
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}
+
+.product-card .price {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product-card .btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto; /* Push the button container to the bottom */
+}
+
+.product-card .btn {
+  padding: 0.5rem 1rem;
+  background-color: #daf92c;
+  color: #0a0909;
+  border: none;
+  border-radius: 4px;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.product-card .btn:hover {
+  background-color: #f9bf62;
+  transform: scale(1.05);
+}

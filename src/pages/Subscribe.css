@@ -1,0 +1,58 @@
+/* Subscribe.css */
+
+/* Container styling */
+.subscribe-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  /* Header styling */
+  .subscribe-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form styling */
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styling */
+  .subscribe-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  

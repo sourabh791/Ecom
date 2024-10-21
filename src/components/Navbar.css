@@ -1,0 +1,48 @@
+/* Navbar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2f3125;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo styling */
+  nav img {
+    height: 50px; /* Adjust the size as needed */
+    width: auto;
+  }
+  
+  /* Navigation links */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  nav a:hover {
+    color: #ff9800; /* Change to your desired hover color */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav img {
+      margin-bottom: 1rem;
+    }
+  
+    nav a {
+      margin: 0.5rem 0;
+    }
+  }
+  

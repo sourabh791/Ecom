@@ -1,0 +1,102 @@
+/* About.css */
+
+/* Container for the whole About page */
+.about-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Header styling */
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Content section styling */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-info,
+.about-history {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-info h2,
+.about-history h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.about-info p,
+.about-history p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer styling */
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.about-footer p {
+  margin: 0;
+}
+.social-media {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.social-media h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}

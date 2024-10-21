@@ -1,0 +1,36 @@
+/* Container for the Home page */
+.home-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f4f4f4; /* Light gray background for contrast */
+}
+
+/* Title styling */
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #333; /* Dark color for readability */
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Styling for loading and error messages */
+.home-container .loading, .home-container .error {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #ff5722; /* Color for errors */
+  margin: 2rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .home-container h1 {
+    font-size: 2rem; /* Smaller title on small screens */
+  }
+}
